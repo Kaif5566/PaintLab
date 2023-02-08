@@ -1,0 +1,98 @@
+html{
+    background-color: #fbaa05;
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* back button styling  */
+.moreview button{
+    border: none;
+    height: 40px;
+    display: block;
+    width: 13%;
+    margin: auto;
+    border-radius: 12px;
+    background-color: #f5d597;
+    font-size: medium;
+}
+.moreview button a{
+    text-decoration: none;
+    color:black;
+}
+.moreview button:hover{
+    background-color: black;
+    color: #f5d597;
+}
+.moreview button a:hover{
+    color: #f5d597;
+}
+#backbtn button{
+    margin-left: 1%;
+    margin-top: 25px;
+}
+
+
+.elements{
+    padding: 33px 80px;
+    margin: 20px 9px;
+    /* border: 3px solid black; */
+    border: none;
+    border-radius: 23px;
+    background-color: #ffe0a0;
+    width: 321px;
+}
+
+.element{
+    box-sizing: border-box;
+    display: flex;
+}
+.elements img{
+    display: flex;
+    width: 333px;
+    height: fit-content;
+}
+.elements p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buybutton{
+    background-color: #fbaa05;
+    border: none;
+    width: 80px;
+    height: 25px;
+    color: black;
+    border-radius: 10px;
+}
+.buybutton:hover ,  .moreview button:hover , .box button:hover{
+    background-color: black;
+    border: none;
+    color: #fbaa05;
+    cursor: pointer;
+}
+
+/* footer section styling */
+.footer{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: #fbaa05;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    padding: 47px 22px;
+    margin: 45px 30px;
+    text-align: center;
+    margin-left: -1%;
+    margin-right: -4%;
+    margin-bottom: -10px;
+    height: 30px;
+}
+.footer a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #fbaa05;
+}
+.footer a:hover{
+    color: red;
+    cursor: pointer;
+}

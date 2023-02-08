@@ -1,0 +1,347 @@
+.navbar {
+    background-color: #fbaa05;
+    color: black;
+    border-radius: 25px;
+    height: 40px;
+    margin: 14px 5px;
+    padding: 9px 4px;
+}
+
+body {
+    background-color: #fbaa05;
+    margin-right: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    font-weight: 1200;
+}
+
+.title {
+    font-weight: 600;
+    margin: -12px 17px;
+    padding: 4px 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.title img {
+    border-radius: 44px;
+    width: 45px;
+    margin: -16px auto;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+
+.navbar li {
+    display: inline-block;
+    float: left;
+    margin: 0px 4px;
+    padding: 4px 4px;
+    /* padding-left: 40%; */
+}
+
+.navbar li a {
+    text-decoration: none;
+    float: left;
+    color: black;
+    font-weight: 600;
+    padding: 6px 30px;
+    margin: 6px -16px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    background-color: black;
+    color: #fbaa05;
+    /* border: none; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    margin: -88px 843px;
+    padding: -29px 142px;
+    margin-right: 11px;
+    list-style-type: none;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+
+.mail button {
+    position: sticky;
+    left: 90%;
+    right: 300px;
+    bottom: 13px;
+    background-color: black;
+    color: #fbaa05;
+    width: 100px;
+    height: 33px;
+    border: none;
+    border-radius: 14px 14px
+}
+
+.mail button:hover {
+    background-color: #fbaa05;
+    color: black;
+    cursor: pointer;
+}
+
+.home {
+    margin: 25px 8px;
+    padding: 4px 4px;
+    box-sizing: border-box;
+}
+
+.homeimg img {
+    width: 113%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-left: -28px;
+
+}
+
+.homebar {
+    margin-top: 10px;
+    padding: 4px 563px;
+    font-size: 33px;
+    background-color: #fbaa05;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.homeimg {
+    padding: 4px 4px;
+    margin: 4px 4px;
+
+}
+
+.about {
+    padding: 4px 4px;
+    margin: 40px 4px;
+    margin-right: -134px;
+    margin-bottom: -25px;
+    display: inline-block;
+}
+
+.logo img {
+    display: flex;
+    border-radius: 55px;
+    width: 25%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.heading {
+    display: flex;
+    font-size: 34px;
+    padding: 10px 11px;
+    margin: -346px 472px;
+}
+
+.info p {
+    display: flex;
+    box-sizing: border-box;
+    font-size: 22px;
+    float: right;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 13px 4px;
+    margin: 334px 466px;
+
+}
+
+/* .click button{
+    padding: 7px 15px;
+    margin: -340px 464px;
+    background-color: #f5d597;
+    color: black;
+    float: right;
+} */
+.elements {
+    padding: 33px 80px;
+    margin: 20px 9px;
+    /* border: 3px solid black; */
+    border: none;
+    border-radius: 23px;
+    background-color: #ffe0a0;
+    width: 321px;
+}
+
+.element {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.elements img {
+    display: flex;
+    width: 333px;
+    height: fit-content;
+}
+
+.elements p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buybutton {
+    background-color: #fbaa05;
+    border: none;
+    width: 80px;
+    height: 25px;
+    color: black;
+    border-radius: 10px;
+}
+
+.buybutton:hover,
+.box button:hover {
+    background-color: black;
+    border: none;
+    color: #fbaa05;
+    cursor: pointer;
+}
+
+.moreview button {
+    border: none;
+    height: 40px;
+    display: block;
+    width: 21%;
+    margin: auto;
+    border-radius: 12px;
+    background-color: #f5d597;
+    font-size: medium;
+}
+
+.moreview button a {
+    text-decoration: none;
+    color: black;
+}
+
+.moreview button:hover {
+    background-color: black;
+    color: #f5d597;
+}
+
+.moreview button a:hover {
+    color: #f5d597;
+}
+
+.box {
+    display: inline-block;
+    width: 45%;
+    padding: 109px 11px;
+    margin: 56px 20px;
+    background-color: #f5d597;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.box p {
+    font-size: 22px;
+    text-align: center;
+    /* font-weight: 500; */
+}
+
+.box input.row1 {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px 9px;
+    margin: 7px 79px;
+    width: 158px;
+    height: 27px;
+}
+
+.box input.row {
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px 200px;
+    margin: 7px 162px;
+    width: 158px;
+    height: 27px;
+    padding-left: 12px;
+}
+
+.box button {
+    background-color: #fbaa05;
+    border: none;
+    width: 182px;
+    height: 34px;
+    color: black;
+    border-radius: 10px;
+    margin-left: 163px;
+    margin-top: 18px;
+}
+
+.box button#reset {
+    margin-left: 2px;
+}
+
+.box input#name {
+    margin-right: -10%;
+}
+
+.box input#name {
+    margin-left: 24%;
+}
+
+.container h3 {
+    display: inline-block;
+    width: 33%;
+    margin: auto;
+    padding: 5px 216px;
+    margin: 5px 4px;
+    font-size: 33px;
+}
+
+.container i {
+    color: black;
+}
+
+#contact {}
+
+#query {
+    float: right;
+    padding: 41px 5px;
+    margin: 56px 29px;
+
+}
+
+.footer {
+    background-color: black;
+    color: #fbaa05;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    padding: 46px 20px;
+    margin: 3px 30px;
+    text-align: center;
+    margin-left: -1%;
+    margin-right: -4%;
+    margin-bottom: -10px;
+    height: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fbaa05;
+}
+
+.footer a:hover {
+    color: red;
+    cursor: pointer;
+}
