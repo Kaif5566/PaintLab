@@ -1,3 +1,23 @@
+/* primary attributes */
+body {
+    background-color: #fbaa05;
+    margin-right: 0px;
+}
+html {
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+}
+h3 {
+    font-weight: 1200;
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar styling */
 .navbar {
     background-color: #fbaa05;
     color: black;
@@ -6,23 +26,76 @@
     margin: 14px 5px;
     padding: 9px 4px;
 }
-
-body {
-    background-color: #fbaa05;
-    margin-right: 0px;
+.navbar li {
+    display: inline-block;
+    /* float: left; */
+    margin: 0px 4px;
+    padding: 4px 4px;
+    /* padding-left: 40%; */
 }
-
-html {
-    scroll-behavior: smooth;
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Ubuntu', sans-serif;
+.navbar li a {
+    text-decoration: none;
+    float: left;
+    color: black;
+    font-weight: 600;
+    padding: 6px 30px;
+    margin: 6px -16px;
 }
-
-h3 {
-    font-weight: 1200;
+.navbar li a.active {
+    background-color: black;
+    color: #fbaa05;
+    /* border: none; */
+    border-radius: 20px;
+    cursor: pointer;
 }
-
+.navbar li a:hover {
+    background-color: black;
+    color: #fbaa05;
+    /* border: none; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+.navbar ul {
+    margin: -88px 680px;
+    padding: -29px 142px;
+    margin-right: 11px;
+    list-style-type: none;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.navbar ul .signinbtn button {
+    text-decoration: none;
+    color: #fbaa05;
+    margin: 9px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    width: 100px;
+}
+.navbar ul .signinbtn a{
+    text-decoration: none;
+    color: #fbaa05;
+    /* background-color: black;l */
+    border: none;
+}
+.navbar ul .signinbtn a:hover{
+    color: black;
+    background-color: #f5d597;
+}
+.navbar ul .signinbtn button:hover {
+    color: black;
+    background-color: #f5d597;
+}
+.navbar ul .signinbtn{
+    color: #fbaa05;
+    border: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+/* title styling */
 .title {
     font-weight: 600;
     margin: -12px 17px;
@@ -30,7 +103,6 @@ h3 {
     box-sizing: border-box;
     display: inline-block;
 }
-
 .title img {
     border-radius: 44px;
     width: 45px;
@@ -40,43 +112,8 @@ h3 {
 }
 
 
-.navbar li {
-    display: inline-block;
-    float: left;
-    margin: 0px 4px;
-    padding: 4px 4px;
-    /* padding-left: 40%; */
-}
-
-.navbar li a {
-    text-decoration: none;
-    float: left;
-    color: black;
-    font-weight: 600;
-    padding: 6px 30px;
-    margin: 6px -16px;
-}
-
-.navbar li a:hover,
-.navbar li a.active {
-    background-color: black;
-    color: #fbaa05;
-    /* border: none; */
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.navbar ul {
-    margin: -88px 843px;
-    padding: -29px 142px;
-    margin-right: 11px;
-    list-style-type: none;
-    letter-spacing: 3px;
-    word-spacing: 2px;
-}
-
-
-.mail button {
+/* mail button stylig-----off */
+/* .mail button {
     position: sticky;
     left: 90%;
     right: 300px;
@@ -93,22 +130,20 @@ h3 {
     background-color: #fbaa05;
     color: black;
     cursor: pointer;
-}
+} */
 
+/* home section styling */
 .home {
     margin: 25px 8px;
     padding: 4px 4px;
     box-sizing: border-box;
 }
-
 .homeimg img {
-    width: 113%;
+    width: 104%;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     margin-left: -28px;
-
 }
-
 .homebar {
     margin-top: 10px;
     padding: 4px 563px;
@@ -123,46 +158,48 @@ h3 {
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
 }
-
 .homeimg {
     padding: 4px 4px;
     margin: 4px 4px;
 
 }
 
+/* about section styling */
 .about {
-    padding: 4px 4px;
-    margin: 40px 4px;
-    margin-right: -134px;
-    margin-bottom: -25px;
     display: inline-block;
+    margin-left: 33px;
 }
-
 .logo img {
     display: flex;
     border-radius: 55px;
     width: 25%;
-    height: 400px;
+    height: 353px;
     box-sizing: border-box;
 }
-
 .heading {
     display: flex;
     font-size: 34px;
-    padding: 10px 11px;
-    margin: -346px 472px;
+    font-weight: bolder;
+    padding: 9px 6px;
+    margin: -346px 434px;
 }
-
 .info p {
     display: flex;
     box-sizing: border-box;
+    word-spacing: 6px;
     font-size: 22px;
     float: right;
+    margin-left: 33px;
     /* border: 2px solid black; */
-    text-align: center;
-    padding: 13px 4px;
-    margin: 334px 466px;
-
+    text-align: left;
+    padding: 14px 28px;
+    margin: 334px 415px;
+}
+h5{
+    padding: 15px 10px;
+    margin: 31px -164px;
+    margin-bottom: -18px;
+    margin-top: 38px;
 }
 
 /* .click button{
@@ -172,6 +209,13 @@ h3 {
     color: black;
     float: right;
 } */
+
+/* buy section styling */
+.dottedline{
+    border: 16px dotted black;
+    word-spacing: 40px;
+    opacity: 0.5;
+}
 .elements {
     padding: 33px 80px;
     margin: 20px 9px;
@@ -181,23 +225,19 @@ h3 {
     background-color: #ffe0a0;
     width: 321px;
 }
-
 .element {
     box-sizing: border-box;
     display: flex;
 }
-
 .elements img {
     display: flex;
     width: 333px;
     height: fit-content;
 }
-
 .elements p {
     font-size: 20px;
     font-weight: bold;
 }
-
 .buybutton {
     background-color: #fbaa05;
     border: none;
@@ -206,40 +246,49 @@ h3 {
     color: black;
     border-radius: 10px;
 }
-
-.buybutton:hover,
-.box button:hover {
+.buybutton {
+    background-color: #fbaa05;
+    border: none;
+    width: 80px;
+    height: 25px;
+    color: black;
+    border-radius: 10px;
+}
+.buybutton:hover{
     background-color: black;
     border: none;
     color: #fbaa05;
     cursor: pointer;
 }
-
+/* .box button:hover {
+    background-color: black;
+    border: none;
+    color: #fbaa05;
+    cursor: pointer;
+} */
 .moreview button {
     border: none;
     height: 40px;
     display: block;
-    width: 21%;
+    width: 11%;
     margin: auto;
     border-radius: 12px;
     background-color: #f5d597;
     font-size: medium;
 }
-
 .moreview button a {
     text-decoration: none;
     color: black;
 }
-
 .moreview button:hover {
     background-color: black;
     color: #f5d597;
 }
-
 .moreview button a:hover {
     color: #f5d597;
 }
 
+/* contact us and query section styling  */
 .box {
     display: inline-block;
     width: 45%;
@@ -250,13 +299,11 @@ h3 {
     border: none;
 
 }
-
 .box p {
     font-size: 22px;
     text-align: center;
     /* font-weight: 500; */
 }
-
 .box input.row1 {
     display: inline-block;
     border-radius: 4px;
@@ -266,7 +313,6 @@ h3 {
     width: 158px;
     height: 27px;
 }
-
 .box input.row {
     border-radius: 4px;
     border: 1px solid black;
@@ -276,7 +322,35 @@ h3 {
     height: 27px;
     padding-left: 12px;
 }
-
+.box .buybutton{
+    display: inline-block;
+    width: 160px;
+    /* margin:auto; */
+    text-align: center;
+    color:black;
+    padding: 6px 8px;
+    margin-left: 158px;
+}
+.box #ytbtn{
+    margin-right: 0px;
+}
+.box #igbtn{
+    margin-left: 0px;
+}
+.box .buybutton a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    font-size: 1.2em;
+}
+.box .buybutton a:hover{
+    background-color: black;
+    color: #fbaa05;
+    width: 195px;
+}
+.box .buybutton a:hover{
+    color: #fbaa05;
+}
 .box button {
     background-color: #fbaa05;
     border: none;
@@ -286,42 +360,41 @@ h3 {
     border-radius: 10px;
     margin-left: 163px;
     margin-top: 18px;
+    
 }
-
+.box button:hover {
+    background-color: black;
+    color: #fbaa05;
+    
+}
 .box button#reset {
     margin-left: 2px;
 }
-
 .box input#name {
     margin-right: -10%;
 }
-
 .box input#name {
     margin-left: 24%;
 }
-
 .container h3 {
     display: inline-block;
     width: 33%;
     margin: auto;
-    padding: 5px 216px;
-    margin: 5px 4px;
-    font-size: 33px;
+    padding: 0px 221px;
+    margin: -11px 11px;
+    font-size: 38px;
 }
-
 .container i {
     color: black;
 }
-
-#contact {}
-
 #query {
     float: right;
     padding: 41px 5px;
     margin: 56px 29px;
-
+    opacity: 0.8;
 }
 
+/* footer section styling */
 .footer {
     background-color: black;
     color: #fbaa05;
@@ -335,12 +408,10 @@ h3 {
     margin-bottom: -10px;
     height: 30px;
 }
-
 .footer a {
     text-decoration: none;
     color: #fbaa05;
 }
-
 .footer a:hover {
     color: red;
     cursor: pointer;
